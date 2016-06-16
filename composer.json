@@ -1,0 +1,26 @@
+{
+    "name": "fuckdoor/app-info",
+    "description": "Пример расширения, которое раскрывает важную информацию о приложении",
+    "authors": [
+        {
+            "name": "Антон Голомазов",
+            "email": "agolomazov@itloft.ru"
+        }
+    ],
+    "keywords": [
+        "yii2", "application-info", "example-extension"
+    ],
+    "version": "1.0.0",
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "type": "yii2-extension",
+    "autoload": {
+        "psr-4": {
+            "fuckdoor\\": ""
+        }
+    },
+    "extra": {
+        "bootstrap": "fuckdoor\\Bootstrap"
+    }
+}
